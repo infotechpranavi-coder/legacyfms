@@ -742,7 +742,14 @@ img {
 }
 
 .main-header.style-one .header-lower .logo-box{
-  padding-top: 14px;
+  padding-top: 20px;
+}
+
+.main-header .header-lower .logo-box .logo img{
+  max-width: 350px;
+  max-height: 110px;
+  width: auto;
+  height: auto;
 }
 
 .main-header .header-lower .menu-right-content{
@@ -1230,6 +1237,13 @@ img {
   position:relative;
   padding:30px 25px;
   text-align:left;  
+}
+
+.mobile-menu .nav-logo img{
+  max-width: 240px;
+  max-height: 80px;
+  width: auto;
+  height: auto;
 }
 
 .mobile-menu-visible{
